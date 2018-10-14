@@ -1,0 +1,9 @@
+DAO:data access object,数据访问对象
+数据库连接专门放在专门的连接类DBConnection中
+    类UserDao调用DBConnection的getConnection方法获取数据库连接
+    Connection conn = DBConnection.getConnection();
+定义类UserDao来使User实体类链接数据库:
+    在实体类中添加如下语句：
+    UserDao userDao = new UserDao();
+    boolean valid= userDao.isValid(uname,pwd);
+    来获得操作数据库返回的结果。

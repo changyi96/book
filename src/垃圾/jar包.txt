@@ -1,0 +1,6 @@
+使用https://mvnrepository.com/下载jar包
+jsp-jar
+servlet-jar
+jstl-1.2.jar
+standard.jar
+mysql-connector-java-5.1.12.jar

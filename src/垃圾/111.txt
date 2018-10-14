@@ -1,0 +1,7 @@
+<td>${book.tname}</td>
+<td>${book.author}</td>
+<td>${book.price}</td>
+<td>${bzzzzzzzzzzzzzzzzzook.total}</td>
+<td>${book.cdate}</td>
+<td>${book.yn}</td>
+admin
